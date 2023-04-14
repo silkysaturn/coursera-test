@@ -2,6 +2,16 @@ body {
     background-color: lightslategray;
 }
 
-#box {
-    background-color: burlywood;
+.title {
+    background-color: rgb(202, 131, 131);
+    float: left;
+
+}
+
+.box {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    background-color:bisque;
+    margin: 20px;
 }
