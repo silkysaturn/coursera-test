@@ -1,17 +1,24 @@
 body {
     background-color: lightslategray;
+    box-sizing: border-box;
+    width: auto;
 }
 
 .title {
     background-color: rgb(202, 131, 131);
-    float: left;
-
+    width: 15%;
+    text-align: center;
 }
 
-.box {
-    border: 1px solid black;
-    width: 50%;
-    height: 50%;
-    background-color:bisque;
-    margin: 20px;
+#first {
+    background-color: bisque;
+    text-align: left;
+}
+#second {
+    background-color: bisque;
+    text-align: center;
+}
+#third {
+    background-color: bisque;
+    text-align: right;
 }
